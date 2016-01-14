@@ -20,7 +20,7 @@ public final class MainStarterMenu {
 				JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
 		if (n == 0) {
 			new ServerMain().start();
-		} else {
+		} else{
 			new ClientMain().start();
 		}
 	}
